@@ -1,0 +1,117 @@
+/**
+    Custom CSS changes
+**/
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-size: 12px !important;
+    font-family: Arial, Helvetica, sans-serif;
+    background: -webkit-linear-gradient(top, rgb(18, 89, 44) 0%, rgb(158, 188, 169) 18%, rgb(252, 253, 252) 32%, rgb(252, 253, 252) 100%);
+    background: -o-linear-gradient(top, rgb(18, 89, 44) 0%, rgb(158, 188, 169) 18%, rgb(252, 253, 252) 32%, rgb(252, 253, 252) 100%);
+    background: -ms-linear-gradient(top, rgb(18, 89, 44) 0%, rgb(158, 188, 169) 18%, rgb(252, 253, 252) 32%, rgb(252, 253, 252) 100%);
+    background: -moz-linear-gradient(top, rgb(18, 89, 44) 0%, rgb(158, 188, 169) 18%, rgb(252, 253, 252) 32%, rgb(252, 253, 252) 100%);
+    background: linear-gradient(to bottom, rgb(18, 89, 44) 0%, rgb(158, 188, 169) 18%, rgb(252, 253, 252) 32%, rgb(252, 253, 252) 100%);
+}
+
+#banner {
+    background:url("../../images/banner.jpg");
+    width: auto;
+    height: 98px;
+}
+
+.tabs {
+    background: -webkit-linear-gradient(top, rgb(249, 250, 251) 0%, rgb(183, 205, 218) 41%, rgb(139, 174, 196) 61%, rgb(75, 129, 164) 100%);
+    background: -o-linear-gradient(top, rgb(249, 250, 251) 0%, rgb(183, 205, 218) 41%, rgb(139, 174, 196) 61%, rgb(75, 129, 164) 100%);
+    background: -ms-linear-gradient(top, rgb(249, 250, 251) 0%, rgb(183, 205, 218) 41%, rgb(139, 174, 196) 61%, rgb(75, 129, 164) 100%);
+    background: -moz-linear-gradient(top, rgb(249, 250, 251) 0%, rgb(183, 205, 218) 41%, rgb(139, 174, 196) 61%, rgb(75, 129, 164) 100%);
+    background: linear-gradient(to bottom, rgb(249, 250, 251) 0%, rgb(183, 205, 218) 41%, rgb(139, 174, 196) 61%, rgb(75, 129, 164) 100%);
+}
+
+#pictorial {
+    width: 1000px;
+    height: 200px;
+}
+#imagerotator {
+    position: relative;
+    background-color: #FFF;
+}
+#imagerotator li {
+    list-style: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: none;
+}
+#imagerotator li:first-child {
+    display: block;
+}
+
+#news_wrap {
+    margin: 0 auto;
+}
+
+.news {
+    background-color: #D0E0EA;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+    margin-top: -20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid #D0E0EA;
+}
+.box {
+    margin-top: 5px;
+    padding: 2px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 1px solid #CCDDE8;
+    background-color:#D0E0EA;
+    text-align: center;
+    font-weight: bold;
+}
+
+.box-body {
+    background-color: #fff;
+    border: 1px solid #D0E0EA;
+}
+
+.box-body > ul > li {
+    margin-top: 2px;
+    border-bottom: 1px solid #D0E0EA;
+}
+.outline {
+    margin-top: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid #CCDDE8;
+}
+
+.middle-box {
+    margin-top: 5px;
+    padding: 5px;
+    border-bottom: 1px solid #CCDDE8;
+    font-weight: bold;
+    color: #663300;
+}
+.middle-box > .heading {
+    background-color: #ffffff !important;
+}
+
+.middle-box-body {
+    padding: 5px;
+    margin-left: 15px;
+}
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: #ffffff;
+    background-color: #2A6A41;
+    padding: 20px;
+}
